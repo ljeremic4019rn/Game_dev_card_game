@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed29d06a37f8ad4597036784bf5703e, type: 3}
-  m_Name: Card 1 (ovde menjas elemente za svaku pojedinacnu kartu)
+  m_Name: Card 1 minion
   m_EditorClassIdentifier: 
+  cardType: {fileID: 11400000, guid: 29da070d8eba3c242809951d6a58456f, type: 2}
   properties:
   - stringValue: Testing card
     intValue: 

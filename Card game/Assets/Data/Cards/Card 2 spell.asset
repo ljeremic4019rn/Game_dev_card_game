@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed29d06a37f8ad4597036784bf5703e, type: 3}
-  m_Name: Card 2
+  m_Name: Card 2 spell
   m_EditorClassIdentifier: 
+  cardType: {fileID: 11400000, guid: 1e4b5c196e7c30a409cc50b4db0d5e52, type: 2}
   properties:
-  - stringValue: Testing card
+  - stringValue: holy moly
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 25cd6ab6b1f5e854090f0d34becb8990, type: 2}
@@ -33,11 +34,7 @@ MonoBehaviour:
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: cf2c145a530c01c49af90a6bca228390, type: 2}
-  - stringValue: spell
-    intValue: 
-    sprite: {fileID: 0}
-    element: {fileID: 11400000, guid: 73d673096c7294e47a1b1ede86677351, type: 2}
-  - stringValue: 666
+  - stringValue: 77
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 1bf43bd65bb487d468669dc7a7c0a03f, type: 2}

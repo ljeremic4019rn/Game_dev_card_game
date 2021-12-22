@@ -10,10 +10,13 @@ namespace SA
 
         public Card card;
         public CardVizProperties[] properties;
-                private void Start()
-                {
-                    LoadCard(card);
-                }
+        public GameObject statsHolder;
+
+
+        private void Start()
+        {
+            LoadCard(card);
+        }
 
         public void LoadCard(Card c)
         {
@@ -21,8 +24,10 @@ namespace SA
                 return;            
 
             card = c;
+            c.cardType.OnSetType(this);
 
-            for(int i = 0; i < properties.Length; i++)
+            
+            for (int i = 0; i < properties.Length; i++)
             {
                 CardProperties cp = c.properties[i];
 
@@ -32,8 +37,9 @@ namespace SA
 
                 if (cp.element is ElementInt)
                 {
-                   // p.text.text = cp.intValue.ToString();
+                   // p.text.text = cp.intValue.ToString(); //todo ovo ne radi pogledaj zasto ne
                     p.text.text = cp.stringValue;
+                    
                 }
                 else if (cp.element is ElementText)
                 {

@@ -21,6 +21,7 @@ namespace SA
         public string cardFlavor;
         public string artist;
         */
+        public CardType cardType;
         public CardProperties[] properties;
     }
 }
