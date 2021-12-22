@@ -7,48 +7,60 @@ namespace SA
 {
     public class CardViz : MonoBehaviour
     {
-        public Text name;
-        public Text description;
-        public Text type;
-        public Text mana;
-        public Text attack;
-        public Text health;
-        public Text flavor;
-        public Text artist;
-        public Image art;
-        public Image backArt;
-        public Image frontArt;
 
         public Card card;
-        
+        public CardVizProperties[] properties;
                 private void Start()
                 {
                     LoadCard(card);
                 }
-            
-        
-            public void LoadCard(Card c)
+
+        public void LoadCard(Card c)
+        {
+            if (c == null)
+                return;            
+
+            card = c;
+
+            for(int i = 0; i < properties.Length; i++)
             {
-                if (c == null)
-            {
-                return;
+                CardProperties cp = c.properties[i];
+
+                CardVizProperties p = GetProperty(cp.element);
+                if (p == null)
+                    continue;
+
+                if (cp.element is ElementInt)
+                {
+                   // p.text.text = cp.intValue.ToString();
+                    p.text.text = cp.stringValue;
+                }
+                else if (cp.element is ElementText)
+                {
+                    p.text.text = cp.stringValue;
+                }
+                else if (cp.element is ElementImage)
+                {
+                    p.img.sprite = cp.sprite;
+                }
             }
 
-                card = c;
 
-                name.text = c.cardName;
-                description.text = c.cardDescription;
-                type.text = c.cardType;
-                mana.text = c.mana;
-                attack.text = c.attack;
-                health.text = c.health;
-                flavor.text = c.cardFlavor;
-                artist.text = c.artist;
-                art.sprite = c.art;
-                backArt.sprite = c.cardBack;
-                frontArt.sprite = c.cardFront;
+        }
 
+        public CardVizProperties GetProperty(Element e)
+        {
+            CardVizProperties result = null;
 
+            for(int i = 0; i < properties.Length; i++)
+            {
+                if (properties[i].element == e)
+                {
+                    result = properties[i];
+                    break;
+                }
+            }
+            return result;
         }
     }
 }

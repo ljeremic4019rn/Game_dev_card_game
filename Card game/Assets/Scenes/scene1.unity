@@ -248,17 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &29813074 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8793162598621680600, guid: ee5537f95e9feed47a1a42b3674ce783, type: 3}
-  m_PrefabInstance: {fileID: 29813071}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &29813075 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5285251598256383921, guid: ee5537f95e9feed47a1a42b3674ce783, type: 3}
@@ -375,18 +364,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8b23e37cd42c74baa4d7fea1b676b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: {fileID: 29813080}
-  description: {fileID: 29813079}
-  type: {fileID: 29813078}
-  mana: {fileID: 29813077}
-  attack: {fileID: 29813076}
-  health: {fileID: 29813075}
-  flavor: {fileID: 29813074}
-  artist: {fileID: 29813073}
-  art: {fileID: 29813082}
-  backArt: {fileID: 29813083}
-  frontArt: {fileID: 29813081}
   card: {fileID: 11400000, guid: 2d0dc178dfe01234fbd428352be3d479, type: 2}
+  properties:
+  - text: {fileID: 29813080}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 25cd6ab6b1f5e854090f0d34becb8990, type: 2}
+  - text: {fileID: 0}
+    img: {fileID: 29813082}
+    element: {fileID: 11400000, guid: e7cc29a1aa2018d419c1de2fb43027d1, type: 2}
+  - text: {fileID: 0}
+    img: {fileID: 29813081}
+    element: {fileID: 11400000, guid: 53c35c427d4150d49a29c242fec58ce6, type: 2}
+  - text: {fileID: 0}
+    img: {fileID: 29813083}
+    element: {fileID: 11400000, guid: b6245dcfa7d88f44c925e11ee1fb3834, type: 2}
+  - text: {fileID: 29813079}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: cf2c145a530c01c49af90a6bca228390, type: 2}
+  - text: {fileID: 29813078}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 73d673096c7294e47a1b1ede86677351, type: 2}
+  - text: {fileID: 29813077}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 1bf43bd65bb487d468669dc7a7c0a03f, type: 2}
+  - text: {fileID: 29813076}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 9be240ba596d12647a91570a0773d0ce, type: 2}
+  - text: {fileID: 29813075}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 153a38b671067844d98ff7347e268cc5, type: 2}
+  - text: {fileID: 0}
+    img: {fileID: 0}
+    element: {fileID: 0}
+  - text: {fileID: 29813073}
+    img: {fileID: 0}
+    element: {fileID: 11400000, guid: 89832315dd10f5d479edf3c8856a7c1e, type: 2}
 --- !u!1001 &77343017
 PrefabInstance:
   m_ObjectHideFlags: 0

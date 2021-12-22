@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed29d06a37f8ad4597036784bf5703e, type: 3}
+  m_Name: Card 1 (ovde menjas elemente za svaku pojedinacnu kartu)
+  m_EditorClassIdentifier: 
+  properties:
+  - stringValue: Testing card
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 25cd6ab6b1f5e854090f0d34becb8990, type: 2}
+  - stringValue: 
+    intValue: 
+    sprite: {fileID: 21300000, guid: 603cfad3373e42949ac7929c1f767afc, type: 3}
+    element: {fileID: 11400000, guid: e7cc29a1aa2018d419c1de2fb43027d1, type: 2}
+  - stringValue: 
+    intValue: 
+    sprite: {fileID: 21300000, guid: 7171447cbe50058479ff509056c9ba76, type: 3}
+    element: {fileID: 11400000, guid: 53c35c427d4150d49a29c242fec58ce6, type: 2}
+  - stringValue: 
+    intValue: 
+    sprite: {fileID: 21300000, guid: 9338d11c1a2240248b66a6ed7b876ab1, type: 3}
+    element: {fileID: 11400000, guid: b6245dcfa7d88f44c925e11ee1fb3834, type: 2}
+  - stringValue: card description, for testing, need to change later
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: cf2c145a530c01c49af90a6bca228390, type: 2}
+  - stringValue: spell
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 73d673096c7294e47a1b1ede86677351, type: 2}
+  - stringValue: 666
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 1bf43bd65bb487d468669dc7a7c0a03f, type: 2}
+  - stringValue: 69
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 9be240ba596d12647a91570a0773d0ce, type: 2}
+  - stringValue: 15
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 153a38b671067844d98ff7347e268cc5, type: 2}
+  - stringValue: flavor text incoming
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: df15f5a1ea3b8c849b90c9c51fcecd10, type: 2}
+  - stringValue: your mom
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 89832315dd10f5d479edf3c8856a7c1e, type: 2}

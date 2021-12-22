@@ -8,6 +8,7 @@ namespace SA
     [CreateAssetMenu(menuName = "Card")]
     public class Card : ScriptableObject
     {
+        /*
         public string cardName;
         public Sprite art;
         public Sprite cardBack;
@@ -19,7 +20,8 @@ namespace SA
         public string health;
         public string cardFlavor;
         public string artist;
-
+        */
+        public CardProperties[] properties;
     }
 }
 
