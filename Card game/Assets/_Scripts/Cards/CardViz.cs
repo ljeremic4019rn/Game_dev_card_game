@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,8 @@ namespace SA
 
         private void Start()
         {
+            
+
             LoadCard(card);
         }
 
@@ -29,11 +32,14 @@ namespace SA
             
             for (int i = 0; i < properties.Length; i++)
             {
+                Debug.Log(i);
                 CardProperties cp = c.properties[i];
-
                 CardVizProperties p = GetProperty(cp.element);
                 if (p == null)
                     continue;
+
+                
+                
 
                 if (cp.element is ElementInt)
                 {
