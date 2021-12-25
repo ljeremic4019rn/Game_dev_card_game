@@ -21,6 +21,7 @@ namespace SA.GameStates
 
             foreach (RaycastResult r in results)
             {
+                Console.Write("test");
                 IClickable c = r.gameObject.GetComponentInParent<IClickable>();//ako c nije null onda smo nesto pogodili, neki bojekat
                 if (c != null)
                 {
