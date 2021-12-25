@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardType: {fileID: 11400000, guid: 1e4b5c196e7c30a409cc50b4db0d5e52, type: 2}
   properties:
-  - stringValue: holy moly
+  - stringValue: holy nova
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 25cd6ab6b1f5e854090f0d34becb8990, type: 2}
   - stringValue: 
     intValue: 
-    sprite: {fileID: 21300000, guid: 603cfad3373e42949ac7929c1f767afc, type: 3}
+    sprite: {fileID: 21300000, guid: 66dd6efc1c2ae1c49badfde2f75d466c, type: 3}
     element: {fileID: 11400000, guid: e7cc29a1aa2018d419c1de2fb43027d1, type: 2}
   - stringValue: 
     intValue: 
@@ -54,3 +54,7 @@ MonoBehaviour:
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 89832315dd10f5d479edf3c8856a7c1e, type: 2}
+  - stringValue: ovo je visak koji mora da se nebi bacao error
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 0}

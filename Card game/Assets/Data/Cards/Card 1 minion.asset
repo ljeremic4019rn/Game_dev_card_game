@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardType: {fileID: 11400000, guid: 29da070d8eba3c242809951d6a58456f, type: 2}
   properties:
-  - stringValue: Testing card
+  - stringValue: Minion card name
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 25cd6ab6b1f5e854090f0d34becb8990, type: 2}
@@ -24,7 +24,7 @@ MonoBehaviour:
     element: {fileID: 11400000, guid: e7cc29a1aa2018d419c1de2fb43027d1, type: 2}
   - stringValue: 
     intValue: 
-    sprite: {fileID: 21300000, guid: 7171447cbe50058479ff509056c9ba76, type: 3}
+    sprite: {fileID: 21300000, guid: f349893bb6d816545ae34114accb5d64, type: 3}
     element: {fileID: 11400000, guid: 53c35c427d4150d49a29c242fec58ce6, type: 2}
   - stringValue: 
     intValue: 
@@ -34,10 +34,6 @@ MonoBehaviour:
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: cf2c145a530c01c49af90a6bca228390, type: 2}
-  - stringValue: spell
-    intValue: 
-    sprite: {fileID: 0}
-    element: {fileID: 11400000, guid: 73d673096c7294e47a1b1ede86677351, type: 2}
   - stringValue: 666
     intValue: 
     sprite: {fileID: 0}
@@ -50,7 +46,7 @@ MonoBehaviour:
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 153a38b671067844d98ff7347e268cc5, type: 2}
-  - stringValue: flavor text incoming
+  - stringValue: hellooooooooooo
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: df15f5a1ea3b8c849b90c9c51fcecd10, type: 2}
@@ -58,3 +54,7 @@ MonoBehaviour:
     intValue: 
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 89832315dd10f5d479edf3c8856a7c1e, type: 2}
+  - stringValue: ovo je visak koji mora da se nebi bacao error
+    intValue: 
+    sprite: {fileID: 0}
+    element: {fileID: 0}
