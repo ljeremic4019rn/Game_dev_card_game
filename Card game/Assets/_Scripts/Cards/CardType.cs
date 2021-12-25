@@ -10,7 +10,7 @@ namespace SA
 
         public virtual void OnSetType(CardViz viz)
         {
-            Element t = GameManager.GetResourceManager().typeElement;
+            Element t = Settings.GetResourceManager().typeElement;
             CardVizProperties type = viz.GetProperty(t);
             type.text.text = typeName;
         }

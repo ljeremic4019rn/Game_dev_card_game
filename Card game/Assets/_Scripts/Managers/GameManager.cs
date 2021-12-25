@@ -1,22 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using SA.GameStates;
 
-namespace SA
+public class GameManager : MonoBehaviour
 {
-    public static class GameManager
-    {
-        private static ResourceManager _resourceManager;
+    public State currentState;
 
-        public static ResourceManager GetResourceManager() 
-        {            
-            if (_resourceManager == null)
-            {
-                _resourceManager = Resources.Load("ResourceManager") as ResourceManager;
-            }
-            return _resourceManager;
-        }
+    private void FixedUpdate()
+    {
+        currentState.Tick(Time.deltaTime);
     }
 }
-

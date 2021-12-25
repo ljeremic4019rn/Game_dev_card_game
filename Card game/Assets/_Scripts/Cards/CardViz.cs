@@ -32,7 +32,6 @@ namespace SA
             
             for (int i = 0; i < properties.Length; i++)
             {
-                Debug.Log(i);
                 CardProperties cp = c.properties[i];
                 CardVizProperties p = GetProperty(cp.element);
                 if (p == null)
